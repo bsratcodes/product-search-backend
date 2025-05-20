@@ -2,20 +2,20 @@
 
 A robust **Node.js** backend that scrapes real-time product data from major Ethiopian e-commerce platforms like **EthioShop**, **Jiji Ethiopia**, and **TeleGebeya**, and exposes the data via a clean, RESTful API.
 
-Built to support the [Ethio Shop Frontend](https://github.com/bsratcodes/ethio-shop-frontend) with flexible product search and price comparison functionality.
+# Built to support the [Ethio Shop Frontend](https://github.com/bsratcodes/ethio-shop-frontend) with flexible  product search and price comparison functionality.
 
 ---
 
 ## 🌐 API Base URL
 
-```http
-https://your-backend-url.com/api/products
+##  ```http
+## https://your-backend-url.com/api/products
 
 
-📦 Features
--🧲 Real-time product scraping using Puppeteer
+## 📦 Features
+-    # 🧲 #Real-time product scraping using Puppeteer
 
--🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
+-    # 🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
 
 -🔍 Search products by keyword
 
@@ -25,7 +25,7 @@ https://your-backend-url.com/api/products
 
 -💾 Optional: Save to MySQL for caching / analytics
 
--⚙️Tech Stack
+## ⚙️Tech Stack
 -Purpose	Tech
 -Backend	Node.js, Express.js
 -Scraping	Puppeteer (Headless Chrome)
