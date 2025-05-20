@@ -8,14 +8,13 @@ A robust **Node.js** backend that scrapes real-time product data from major Ethi
 
 ## 🌐 API Base URL
 
-##  ```http
-## https://your-backend-url.com/api/products
+ ```http
+https://your-backend-url.com/api/products
 
+ 📦 Features
+- 🧲 Real-time product scraping using Puppeteer
 
-## 📦 Features
--    # 🧲 #Real-time product scraping using Puppeteer
-
--    # 🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
+- 🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
 
 -🔍 Search products by keyword
 
@@ -32,20 +31,6 @@ A robust **Node.js** backend that scrapes real-time product data from major Ethi
 -Database	MySQL + TypeORM (optional)
 -Caching	Redis (optional)
 -Deployment	Railway, Vercel Functions, or Render
-
-📁 Folder Structure
- ethio-shop-backend/
-├── src/
-│   ├── scrapers/        # Scraper logic per source (EthioShop, Jiji, TeleGebeya)
-│   ├── services/        # Core business logic
-│   ├── controllers/     # Route handling
-│   ├── routes/          # API route definitions
-│   ├── db/              # Optional: TypeORM config + models
-│   ├── utils/           # Shared helper functions
-│   └── index.js         # Server entry point
-├── .env                # Environment variables
-├── package.json
-└── README.md
 
 🚀 Getting Started
 1. Clone the repo
