@@ -13,25 +13,25 @@ https://your-backend-url.com/api/products
 
 
 📦 Features
-🧲 Real-time product scraping using Puppeteer
+-🧲 Real-time product scraping using Puppeteer
 
-🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
+-🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
 
-🔍 Search products by keyword
+-🔍 Search products by keyword
 
-📊 Paginated and limited results
+-📊 Paginated and limited results
 
-🧹 Auto-clean & deduplicated listings
+-🧹 Auto-clean & deduplicated listings
 
-💾 Optional: Save to MySQL for caching / analytics
+-💾 Optional: Save to MySQL for caching / analytics
 
-⚙️Tech Stack
-Purpose	Tech
-Backend	Node.js, Express.js
-Scraping	Puppeteer (Headless Chrome)
-Database	MySQL + TypeORM (optional)
-Caching	Redis (optional)
-Deployment	Railway, Vercel Functions, or Render
+-⚙️Tech Stack
+-Purpose	Tech
+-Backend	Node.js, Express.js
+-Scraping	Puppeteer (Headless Chrome)
+-Database	MySQL + TypeORM (optional)
+-Caching	Redis (optional)
+-Deployment	Railway, Vercel Functions, or Render
 
 📁 Folder Structure
  ethio-shop-backend/
