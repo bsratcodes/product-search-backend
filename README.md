@@ -8,10 +8,9 @@ A robust **Node.js** backend that scrapes real-time product data from major Ethi
 
 ## 🌐 API Base URL
 
- ```http
-https://your-backend-url.com/api/products
+## https://product-search-backend.onrender.com/api/products
 
- 📦 Features
+## 📦 Features
 - 🧲 Real-time product scraping using Puppeteer
 
 - 🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
@@ -32,14 +31,14 @@ https://your-backend-url.com/api/products
 -Caching	Redis (optional)
 -Deployment	Railway, Vercel Functions, or Render
 
-🚀 Getting Started
-1. Clone the repo
+## 🚀 Getting Started
+* 1. Clone the repo
 git clone https://github.com/bsratcodes/ethio-shop-backend.git
 cd ethio-shop-backend
 
-2. Install dependencies
+* 2. Install dependencies
    npm install
-3. Configure environment variables
+* 3. Configure environment variables
  creat .env file at the root of your project
 PORT=3000
 MYSQL_HOST=localhost
@@ -51,14 +50,14 @@ MYSQL_DB=ethioshop
  npm run dev
 server will run on port http://localhost:3000
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 Method	Route	Description
 GET	/api/products	Returns all scraped products
 GET	/api/products?search=phone	Search for products matching query
 GET	/api/products?limit=10	Limit number of results
 POST	/scrape	(Optional) Trigger manual scraping
 
-🛠️ Future Improvements
+## 🛠️ Future Improvements
 ✅ Source toggling (e.g., filter by vendor)
 
 🧠 NLP-powered smart search
@@ -72,12 +71,12 @@ POST	/scrape	(Optional) Trigger manual scraping
 ☁️ CI/CD via GitHub Actions
 
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Bsrat Wellerufael
 📧 Email: bsratwellerufael2024@gmail.com
 🔗 LinkedIn: linkedin.com/in/bsrat-wellerufael-91524529b
 
-⭐ Support This Project
+## ⭐ Support This Project
 If you found this useful, please ⭐ it on GitHub, share it with developers in Ethiopia and beyond, or contribute a PR to make it better.
 
 “Bringing digital price transparency to Ethiopian consumers, one scrape at a time.”
