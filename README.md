@@ -8,12 +8,12 @@ A robust **Node.js** backend that scrapes real-time product data from major Ethi
 
 ## 🌐 API Base URL
 
-## https://product-search-backend.onrender.com/api/products
+**https://product-search-backend.onrender.com/api/products**
 
 ## 📦 Features
-- 🧲 Real-time product scraping using Puppeteer
+-🧲 Real-time product scraping using Puppeteer
 
-- 🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
+-🌍 Multi-source support: EthioShop, Jiji, TeleGebeya
 
 -🔍 Search products by keyword
 
@@ -39,12 +39,12 @@ cd ethio-shop-backend
 * 2. Install dependencies
    npm install
 * 3. Configure environment variables
- creat .env file at the root of your project
-PORT=3000
-MYSQL_HOST=localhost
-MYSQL_USER=root
-MYSQL_PASSWORD=yourpass
-MYSQL_DB=ethioshop
+ **creat .env file at the root of your project**
+* 1. PORT=3000
+* 2. MYSQL_HOST=localhost
+* 3. MYSQL_USER=root
+* 4. MYSQL_PASSWORD=yourpass
+* 5. MYSQL_DB=ethioshop
 
 4. Start the server
  npm run dev
