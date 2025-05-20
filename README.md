@@ -32,19 +32,19 @@ A robust **Node.js** backend that scrapes real-time product data from major Ethi
 -Deployment	Railway, Vercel Functions, or Render
 
 ## 🚀 Getting Started
-* 1. Clone the repo
+- . Clone the repo
 git clone https://github.com/bsratcodes/ethio-shop-backend.git
 cd ethio-shop-backend
 
-* 2. Install dependencies
+- . Install dependencies
    npm install
-* 3. Configure environment variables
+- . Configure environment variables
  **creat .env file at the root of your project**
-* 1. PORT=3000
-* 2. MYSQL_HOST=localhost
-* 3. MYSQL_USER=root
-* 4. MYSQL_PASSWORD=yourpass
-* 5. MYSQL_DB=ethioshop
+- . PORT=3000
+- . MYSQL_HOST=localhost
+- . MYSQL_USER=root
+- . MYSQL_PASSWORD=yourpass
+- . MYSQL_DB=ethioshop
 
 4. Start the server
  npm run dev
